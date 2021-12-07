@@ -1,0 +1,1319 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="1.0" branch-rate="1.0" lines-covered="308" lines-valid="308" branches-covered="102" branches-valid="102" complexity="1.61" version="2.0.3" timestamp="1629767969479">
+	<sources>
+		<source>--source</source>
+		<source>C:/Users/Nnilp/OneDrive/Documents/bmstestsub/bankmanagementsystem/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="com.mycompany.vo" line-rate="1.0" branch-rate="1.0" complexity="1.61">
+			<classes>
+				<class name="com.mycompany.vo.Accounts" filename="com/mycompany/vo/Accounts.java" line-rate="1.0" branch-rate="1.0" complexity="1.3846153846153846">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="24" hits="126" branch="false"/>
+								<line number="25" hits="126" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(IIID)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="27" hits="126" branch="false"/>
+								<line number="28" hits="126" branch="false"/>
+								<line number="29" hits="126" branch="false"/>
+								<line number="30" hits="126" branch="false"/>
+								<line number="31" hits="126" branch="false"/>
+								<line number="32" hits="126" branch="false"/>
+							</lines>
+						</method>
+						<method name="aTest" signature="()Lcom/mycompany/vo/Accounts;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="68" hits="14" branch="false"/>
+								<line number="70" hits="14" branch="false"/>
+								<line number="71" hits="14" branch="false"/>
+								<line number="72" hits="14" branch="false"/>
+								<line number="73" hits="14" branch="false"/>
+								<line number="75" hits="14" branch="false"/>
+								<line number="76" hits="14" branch="false"/>
+								<line number="78" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAccount_balance" signature="()D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="59" hits="24" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAccount_number" signature="()I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="43" hits="36" branch="false"/>
+							</lines>
+						</method>
+						<method name="getC_id" signature="()I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="35" hits="44" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRouting_number" signature="()I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="51" hits="30" branch="false"/>
+							</lines>
+						</method>
+						<method name="setAccount_balance" signature="(D)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="63" hits="2" branch="false"/>
+								<line number="64" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setAccount_number" signature="(I)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="47" hits="2" branch="false"/>
+								<line number="48" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setC_id" signature="(I)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="39" hits="2" branch="false"/>
+								<line number="40" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRouting_number" signature="(I)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="55" hits="2" branch="false"/>
+								<line number="56" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="52" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(IIID)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="82" hits="14" branch="false"/>
+								<line number="83" hits="14" branch="false"/>
+								<line number="85" hits="14" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="86" hits="8" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="87" hits="4" branch="false"/>
+								<line number="89" hits="10" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="52" branch="false"/>
+						<line number="24" hits="126" branch="false"/>
+						<line number="25" hits="126" branch="false"/>
+						<line number="27" hits="126" branch="false"/>
+						<line number="28" hits="126" branch="false"/>
+						<line number="29" hits="126" branch="false"/>
+						<line number="30" hits="126" branch="false"/>
+						<line number="31" hits="126" branch="false"/>
+						<line number="32" hits="126" branch="false"/>
+						<line number="35" hits="44" branch="false"/>
+						<line number="39" hits="2" branch="false"/>
+						<line number="40" hits="2" branch="false"/>
+						<line number="43" hits="36" branch="false"/>
+						<line number="47" hits="2" branch="false"/>
+						<line number="48" hits="2" branch="false"/>
+						<line number="51" hits="30" branch="false"/>
+						<line number="55" hits="2" branch="false"/>
+						<line number="56" hits="2" branch="false"/>
+						<line number="59" hits="24" branch="false"/>
+						<line number="63" hits="2" branch="false"/>
+						<line number="64" hits="2" branch="false"/>
+						<line number="68" hits="14" branch="false"/>
+						<line number="70" hits="14" branch="false"/>
+						<line number="71" hits="14" branch="false"/>
+						<line number="72" hits="14" branch="false"/>
+						<line number="73" hits="14" branch="false"/>
+						<line number="75" hits="14" branch="false"/>
+						<line number="76" hits="14" branch="false"/>
+						<line number="78" hits="14" branch="false"/>
+						<line number="82" hits="14" branch="false"/>
+						<line number="83" hits="14" branch="false"/>
+						<line number="85" hits="14" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="86" hits="8" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="87" hits="4" branch="false"/>
+						<line number="89" hits="10" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.vo.Bank_Management_System" filename="com/mycompany/vo/Bank_Management_System.java" line-rate="1.0" branch-rate="1.0" complexity="1.411764705882353">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="29" hits="62" branch="false"/>
+								<line number="30" hits="62" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;Ljava/util/ArrayList;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="32" hits="38" branch="false"/>
+								<line number="33" hits="38" branch="false"/>
+								<line number="34" hits="38" branch="false"/>
+								<line number="35" hits="38" branch="false"/>
+								<line number="36" hits="38" branch="false"/>
+								<line number="37" hits="38" branch="false"/>
+								<line number="38" hits="38" branch="false"/>
+								<line number="39" hits="38" branch="false"/>
+							</lines>
+						</method>
+						<method name="aTest" signature="()Lcom/mycompany/vo/Bank_Management_System;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="91" hits="18" branch="false"/>
+								<line number="93" hits="18" branch="false"/>
+								<line number="94" hits="18" branch="false"/>
+								<line number="95" hits="18" branch="false"/>
+								<line number="96" hits="18" branch="false"/>
+								<line number="97" hits="18" branch="false"/>
+								<line number="98" hits="18" branch="false"/>
+								<line number="100" hits="18" branch="false"/>
+								<line number="101" hits="18" branch="false"/>
+								<line number="103" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="getBankName" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="42" hits="22" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCustomerList" signature="()Ljava/util/ArrayList;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="82" hits="28" branch="false"/>
+							</lines>
+						</method>
+						<method name="getEmployeeList" signature="()Ljava/util/ArrayList;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="74" hits="30" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPassword" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="66" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="getUserType" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="50" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="getUsername" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="58" hits="16" branch="false"/>
+							</lines>
+						</method>
+						<method name="setBankName" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="46" hits="2" branch="false"/>
+								<line number="47" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCustomerList" signature="(Ljava/util/ArrayList;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="86" hits="4" branch="false"/>
+								<line number="87" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="setEmployeeList" signature="(Ljava/util/ArrayList;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="78" hits="4" branch="false"/>
+								<line number="79" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="setPassword" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="70" hits="2" branch="false"/>
+								<line number="71" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setUserType" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="54" hits="2" branch="false"/>
+								<line number="55" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setUsername" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="62" hits="2" branch="false"/>
+								<line number="63" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="26" hits="20" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;Ljava/util/ArrayList;)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="107" hits="18" branch="false"/>
+								<line number="108" hits="18" branch="false"/>
+								<line number="110" hits="18" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="111" hits="12" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="112" hits="8" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="113" hits="4" branch="false"/>
+								<line number="115" hits="14" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="26" hits="20" branch="false"/>
+						<line number="29" hits="62" branch="false"/>
+						<line number="30" hits="62" branch="false"/>
+						<line number="32" hits="38" branch="false"/>
+						<line number="33" hits="38" branch="false"/>
+						<line number="34" hits="38" branch="false"/>
+						<line number="35" hits="38" branch="false"/>
+						<line number="36" hits="38" branch="false"/>
+						<line number="37" hits="38" branch="false"/>
+						<line number="38" hits="38" branch="false"/>
+						<line number="39" hits="38" branch="false"/>
+						<line number="42" hits="22" branch="false"/>
+						<line number="46" hits="2" branch="false"/>
+						<line number="47" hits="2" branch="false"/>
+						<line number="50" hits="18" branch="false"/>
+						<line number="54" hits="2" branch="false"/>
+						<line number="55" hits="2" branch="false"/>
+						<line number="58" hits="16" branch="false"/>
+						<line number="62" hits="2" branch="false"/>
+						<line number="63" hits="2" branch="false"/>
+						<line number="66" hits="14" branch="false"/>
+						<line number="70" hits="2" branch="false"/>
+						<line number="71" hits="2" branch="false"/>
+						<line number="74" hits="30" branch="false"/>
+						<line number="78" hits="4" branch="false"/>
+						<line number="79" hits="4" branch="false"/>
+						<line number="82" hits="28" branch="false"/>
+						<line number="86" hits="4" branch="false"/>
+						<line number="87" hits="4" branch="false"/>
+						<line number="91" hits="18" branch="false"/>
+						<line number="93" hits="18" branch="false"/>
+						<line number="94" hits="18" branch="false"/>
+						<line number="95" hits="18" branch="false"/>
+						<line number="96" hits="18" branch="false"/>
+						<line number="97" hits="18" branch="false"/>
+						<line number="98" hits="18" branch="false"/>
+						<line number="100" hits="18" branch="false"/>
+						<line number="101" hits="18" branch="false"/>
+						<line number="103" hits="18" branch="false"/>
+						<line number="107" hits="18" branch="false"/>
+						<line number="108" hits="18" branch="false"/>
+						<line number="110" hits="18" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="111" hits="12" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="112" hits="8" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="113" hits="4" branch="false"/>
+						<line number="115" hits="14" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.vo.Business" filename="com/mycompany/vo/Business.java" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="23" hits="62" branch="false"/>
+								<line number="24" hits="62" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(DILjava/lang/String;ILjava/lang/String;Ljava/util/ArrayList;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="27" hits="58" branch="false"/>
+								<line number="28" hits="58" branch="false"/>
+								<line number="29" hits="58" branch="false"/>
+							</lines>
+						</method>
+						<method name="bTest" signature="()Lcom/mycompany/vo/Business;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="41" hits="18" branch="false"/>
+								<line number="43" hits="18" branch="false"/>
+								<line number="44" hits="18" branch="false"/>
+								<line number="45" hits="18" branch="false"/>
+								<line number="46" hits="18" branch="false"/>
+								<line number="47" hits="18" branch="false"/>
+								<line number="48" hits="18" branch="false"/>
+								<line number="49" hits="18" branch="false"/>
+								<line number="50" hits="18" branch="false"/>
+								<line number="51" hits="18" branch="false"/>
+								<line number="52" hits="18" branch="false"/>
+								<line number="53" hits="18" branch="false"/>
+								<line number="55" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="getWithdraw_limit" signature="()D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="32" hits="22" branch="false"/>
+							</lines>
+						</method>
+						<method name="setWithdraw_limit" signature="(D)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="36" hits="4" branch="false"/>
+								<line number="37" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="20" hits="20" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(DILjava/lang/String;ILjava/lang/String;Ljava/util/ArrayList;)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="59" hits="18" branch="false"/>
+								<line number="60" hits="18" branch="false"/>
+								<line number="62" hits="18" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="63" hits="10" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="64" hits="4" branch="false"/>
+								<line number="66" hits="14" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="20" branch="false"/>
+						<line number="23" hits="62" branch="false"/>
+						<line number="24" hits="62" branch="false"/>
+						<line number="27" hits="58" branch="false"/>
+						<line number="28" hits="58" branch="false"/>
+						<line number="29" hits="58" branch="false"/>
+						<line number="32" hits="22" branch="false"/>
+						<line number="36" hits="4" branch="false"/>
+						<line number="37" hits="4" branch="false"/>
+						<line number="41" hits="18" branch="false"/>
+						<line number="43" hits="18" branch="false"/>
+						<line number="44" hits="18" branch="false"/>
+						<line number="45" hits="18" branch="false"/>
+						<line number="46" hits="18" branch="false"/>
+						<line number="47" hits="18" branch="false"/>
+						<line number="48" hits="18" branch="false"/>
+						<line number="49" hits="18" branch="false"/>
+						<line number="50" hits="18" branch="false"/>
+						<line number="51" hits="18" branch="false"/>
+						<line number="52" hits="18" branch="false"/>
+						<line number="53" hits="18" branch="false"/>
+						<line number="55" hits="18" branch="false"/>
+						<line number="59" hits="18" branch="false"/>
+						<line number="60" hits="18" branch="false"/>
+						<line number="62" hits="18" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="63" hits="10" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="64" hits="4" branch="false"/>
+						<line number="66" hits="14" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.vo.Checking" filename="com/mycompany/vo/Checking.java" line-rate="1.0" branch-rate="1.0" complexity="1.8571428571428572">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="38" branch="false"/>
+								<line number="22" hits="38" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(DIIID)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="25" hits="56" branch="false"/>
+								<line number="26" hits="56" branch="false"/>
+								<line number="27" hits="56" branch="false"/>
+							</lines>
+						</method>
+						<method name="cTest" signature="()Lcom/mycompany/vo/Checking;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="39" hits="16" branch="false"/>
+								<line number="41" hits="16" branch="false"/>
+								<line number="42" hits="16" branch="false"/>
+								<line number="43" hits="16" branch="false"/>
+								<line number="44" hits="16" branch="false"/>
+								<line number="45" hits="16" branch="false"/>
+								<line number="47" hits="16" branch="false"/>
+								<line number="48" hits="16" branch="false"/>
+								<line number="50" hits="16" branch="false"/>
+							</lines>
+						</method>
+						<method name="getMinimum_balance" signature="()D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="30" hits="20" branch="false"/>
+							</lines>
+						</method>
+						<method name="setMinimum_balance" signature="(D)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="34" hits="2" branch="false"/>
+								<line number="35" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(DIIID)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="54" hits="16" branch="false"/>
+								<line number="55" hits="16" branch="false"/>
+								<line number="57" hits="16" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="58" hits="8" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="59" hits="4" branch="false"/>
+								<line number="61" hits="12" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="18" branch="false"/>
+						<line number="21" hits="38" branch="false"/>
+						<line number="22" hits="38" branch="false"/>
+						<line number="25" hits="56" branch="false"/>
+						<line number="26" hits="56" branch="false"/>
+						<line number="27" hits="56" branch="false"/>
+						<line number="30" hits="20" branch="false"/>
+						<line number="34" hits="2" branch="false"/>
+						<line number="35" hits="2" branch="false"/>
+						<line number="39" hits="16" branch="false"/>
+						<line number="41" hits="16" branch="false"/>
+						<line number="42" hits="16" branch="false"/>
+						<line number="43" hits="16" branch="false"/>
+						<line number="44" hits="16" branch="false"/>
+						<line number="45" hits="16" branch="false"/>
+						<line number="47" hits="16" branch="false"/>
+						<line number="48" hits="16" branch="false"/>
+						<line number="50" hits="16" branch="false"/>
+						<line number="54" hits="16" branch="false"/>
+						<line number="55" hits="16" branch="false"/>
+						<line number="57" hits="16" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="58" hits="8" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="59" hits="4" branch="false"/>
+						<line number="61" hits="12" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.vo.Customer" filename="com/mycompany/vo/Customer.java" line-rate="1.0" branch-rate="1.0" complexity="1.4">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="28" hits="198" branch="false"/>
+								<line number="29" hits="198" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(ILjava/lang/String;ILjava/lang/String;Ljava/util/ArrayList;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="31" hits="132" branch="false"/>
+								<line number="32" hits="132" branch="false"/>
+								<line number="33" hits="132" branch="false"/>
+								<line number="34" hits="132" branch="false"/>
+								<line number="35" hits="132" branch="false"/>
+								<line number="36" hits="132" branch="false"/>
+								<line number="37" hits="132" branch="false"/>
+							</lines>
+						</method>
+						<method name="cTest" signature="()Lcom/mycompany/vo/Customer;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="81" hits="16" branch="false"/>
+								<line number="83" hits="16" branch="false"/>
+								<line number="84" hits="16" branch="false"/>
+								<line number="85" hits="16" branch="false"/>
+								<line number="86" hits="16" branch="false"/>
+								<line number="90" hits="16" branch="false"/>
+								<line number="92" hits="16" branch="false"/>
+								<line number="93" hits="16" branch="false"/>
+								<line number="95" hits="16" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAccountsList" signature="()Ljava/util/ArrayList;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="72" hits="98" branch="false"/>
+							</lines>
+						</method>
+						<method name="getC_email" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="64" hits="26" branch="false"/>
+							</lines>
+						</method>
+						<method name="getC_id" signature="()I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="40" hits="46" branch="false"/>
+							</lines>
+						</method>
+						<method name="getC_name" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="48" hits="38" branch="false"/>
+							</lines>
+						</method>
+						<method name="getC_phone" signature="()I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="56" hits="32" branch="false"/>
+							</lines>
+						</method>
+						<method name="setAccountsList" signature="(Ljava/util/ArrayList;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="76" hits="4" branch="false"/>
+								<line number="77" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="setC_email" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="68" hits="2" branch="false"/>
+								<line number="69" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setC_id" signature="(I)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="44" hits="2" branch="false"/>
+								<line number="45" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setC_name" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="52" hits="2" branch="false"/>
+								<line number="53" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setC_phone" signature="(I)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="60" hits="2" branch="false"/>
+								<line number="61" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="25" hits="56" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(ILjava/lang/String;ILjava/lang/String;Ljava/util/ArrayList;)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="99" hits="16" branch="false"/>
+								<line number="100" hits="16" branch="false"/>
+								<line number="102" hits="16" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="103" hits="10" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="104" hits="4" branch="false"/>
+								<line number="106" hits="12" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="56" branch="false"/>
+						<line number="28" hits="198" branch="false"/>
+						<line number="29" hits="198" branch="false"/>
+						<line number="31" hits="132" branch="false"/>
+						<line number="32" hits="132" branch="false"/>
+						<line number="33" hits="132" branch="false"/>
+						<line number="34" hits="132" branch="false"/>
+						<line number="35" hits="132" branch="false"/>
+						<line number="36" hits="132" branch="false"/>
+						<line number="37" hits="132" branch="false"/>
+						<line number="40" hits="46" branch="false"/>
+						<line number="44" hits="2" branch="false"/>
+						<line number="45" hits="2" branch="false"/>
+						<line number="48" hits="38" branch="false"/>
+						<line number="52" hits="2" branch="false"/>
+						<line number="53" hits="2" branch="false"/>
+						<line number="56" hits="32" branch="false"/>
+						<line number="60" hits="2" branch="false"/>
+						<line number="61" hits="2" branch="false"/>
+						<line number="64" hits="26" branch="false"/>
+						<line number="68" hits="2" branch="false"/>
+						<line number="69" hits="2" branch="false"/>
+						<line number="72" hits="98" branch="false"/>
+						<line number="76" hits="4" branch="false"/>
+						<line number="77" hits="4" branch="false"/>
+						<line number="81" hits="16" branch="false"/>
+						<line number="83" hits="16" branch="false"/>
+						<line number="84" hits="16" branch="false"/>
+						<line number="85" hits="16" branch="false"/>
+						<line number="86" hits="16" branch="false"/>
+						<line number="90" hits="16" branch="false"/>
+						<line number="92" hits="16" branch="false"/>
+						<line number="93" hits="16" branch="false"/>
+						<line number="95" hits="16" branch="false"/>
+						<line number="99" hits="16" branch="false"/>
+						<line number="100" hits="16" branch="false"/>
+						<line number="102" hits="16" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="103" hits="10" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="104" hits="4" branch="false"/>
+						<line number="106" hits="12" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.vo.Employee" filename="com/mycompany/vo/Employee.java" line-rate="1.0" branch-rate="1.0" complexity="1.3846153846153846">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="24" hits="126" branch="false"/>
+								<line number="25" hits="126" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(ILjava/lang/String;ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="27" hits="134" branch="false"/>
+								<line number="28" hits="134" branch="false"/>
+								<line number="29" hits="134" branch="false"/>
+								<line number="30" hits="134" branch="false"/>
+								<line number="31" hits="134" branch="false"/>
+								<line number="32" hits="134" branch="false"/>
+							</lines>
+						</method>
+						<method name="bTest" signature="()Lcom/mycompany/vo/Employee;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="67" hits="14" branch="false"/>
+								<line number="69" hits="14" branch="false"/>
+								<line number="70" hits="14" branch="false"/>
+								<line number="71" hits="14" branch="false"/>
+								<line number="72" hits="14" branch="false"/>
+								<line number="73" hits="14" branch="false"/>
+								<line number="74" hits="14" branch="false"/>
+								<line number="76" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="getE_id" signature="()I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="35" hits="46" branch="false"/>
+							</lines>
+						</method>
+						<method name="getE_name" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="43" hits="38" branch="false"/>
+							</lines>
+						</method>
+						<method name="getE_phone" signature="()I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="51" hits="32" branch="false"/>
+							</lines>
+						</method>
+						<method name="getEmail" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="59" hits="26" branch="false"/>
+							</lines>
+						</method>
+						<method name="setE_id" signature="(I)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="39" hits="2" branch="false"/>
+								<line number="40" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setE_name" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="47" hits="2" branch="false"/>
+								<line number="48" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setE_phone" signature="(I)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="55" hits="2" branch="false"/>
+								<line number="56" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setEmail" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="63" hits="2" branch="false"/>
+								<line number="64" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="52" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(ILjava/lang/String;ILjava/lang/String;)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="80" hits="14" branch="false"/>
+								<line number="81" hits="14" branch="false"/>
+								<line number="83" hits="14" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="84" hits="8" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="85" hits="4" branch="false"/>
+								<line number="87" hits="10" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="52" branch="false"/>
+						<line number="24" hits="126" branch="false"/>
+						<line number="25" hits="126" branch="false"/>
+						<line number="27" hits="134" branch="false"/>
+						<line number="28" hits="134" branch="false"/>
+						<line number="29" hits="134" branch="false"/>
+						<line number="30" hits="134" branch="false"/>
+						<line number="31" hits="134" branch="false"/>
+						<line number="32" hits="134" branch="false"/>
+						<line number="35" hits="46" branch="false"/>
+						<line number="39" hits="2" branch="false"/>
+						<line number="40" hits="2" branch="false"/>
+						<line number="43" hits="38" branch="false"/>
+						<line number="47" hits="2" branch="false"/>
+						<line number="48" hits="2" branch="false"/>
+						<line number="51" hits="32" branch="false"/>
+						<line number="55" hits="2" branch="false"/>
+						<line number="56" hits="2" branch="false"/>
+						<line number="59" hits="26" branch="false"/>
+						<line number="63" hits="2" branch="false"/>
+						<line number="64" hits="2" branch="false"/>
+						<line number="67" hits="14" branch="false"/>
+						<line number="69" hits="14" branch="false"/>
+						<line number="70" hits="14" branch="false"/>
+						<line number="71" hits="14" branch="false"/>
+						<line number="72" hits="14" branch="false"/>
+						<line number="73" hits="14" branch="false"/>
+						<line number="74" hits="14" branch="false"/>
+						<line number="76" hits="14" branch="false"/>
+						<line number="80" hits="14" branch="false"/>
+						<line number="81" hits="14" branch="false"/>
+						<line number="83" hits="14" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="84" hits="8" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="85" hits="4" branch="false"/>
+						<line number="87" hits="10" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.vo.FullTime" filename="com/mycompany/vo/FullTime.java" line-rate="1.0" branch-rate="1.0" complexity="1.8571428571428572">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="38" branch="false"/>
+								<line number="22" hits="38" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(DILjava/lang/String;ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="25" hits="52" branch="false"/>
+								<line number="26" hits="52" branch="false"/>
+								<line number="27" hits="52" branch="false"/>
+							</lines>
+						</method>
+						<method name="ftTest" signature="()Lcom/mycompany/vo/FullTime;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="39" hits="16" branch="false"/>
+								<line number="41" hits="16" branch="false"/>
+								<line number="42" hits="16" branch="false"/>
+								<line number="43" hits="16" branch="false"/>
+								<line number="44" hits="16" branch="false"/>
+								<line number="45" hits="16" branch="false"/>
+								<line number="47" hits="16" branch="false"/>
+								<line number="48" hits="16" branch="false"/>
+								<line number="50" hits="16" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAnnual_salary" signature="()D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="30" hits="20" branch="false"/>
+							</lines>
+						</method>
+						<method name="setAnnual_salary" signature="(D)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="34" hits="2" branch="false"/>
+								<line number="35" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(DILjava/lang/String;ILjava/lang/String;)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="54" hits="16" branch="false"/>
+								<line number="55" hits="16" branch="false"/>
+								<line number="57" hits="16" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="58" hits="8" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="59" hits="4" branch="false"/>
+								<line number="61" hits="12" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="18" branch="false"/>
+						<line number="21" hits="38" branch="false"/>
+						<line number="22" hits="38" branch="false"/>
+						<line number="25" hits="52" branch="false"/>
+						<line number="26" hits="52" branch="false"/>
+						<line number="27" hits="52" branch="false"/>
+						<line number="30" hits="20" branch="false"/>
+						<line number="34" hits="2" branch="false"/>
+						<line number="35" hits="2" branch="false"/>
+						<line number="39" hits="16" branch="false"/>
+						<line number="41" hits="16" branch="false"/>
+						<line number="42" hits="16" branch="false"/>
+						<line number="43" hits="16" branch="false"/>
+						<line number="44" hits="16" branch="false"/>
+						<line number="45" hits="16" branch="false"/>
+						<line number="47" hits="16" branch="false"/>
+						<line number="48" hits="16" branch="false"/>
+						<line number="50" hits="16" branch="false"/>
+						<line number="54" hits="16" branch="false"/>
+						<line number="55" hits="16" branch="false"/>
+						<line number="57" hits="16" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="58" hits="8" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="59" hits="4" branch="false"/>
+						<line number="61" hits="12" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.vo.Individual" filename="com/mycompany/vo/Individual.java" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="23" hits="62" branch="false"/>
+								<line number="24" hits="62" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(DILjava/lang/String;ILjava/lang/String;Ljava/util/ArrayList;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="27" hits="58" branch="false"/>
+								<line number="28" hits="58" branch="false"/>
+								<line number="29" hits="58" branch="false"/>
+							</lines>
+						</method>
+						<method name="getWithdraw_limit" signature="()D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="32" hits="22" branch="false"/>
+							</lines>
+						</method>
+						<method name="ptTest" signature="()Lcom/mycompany/vo/Individual;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="41" hits="18" branch="false"/>
+								<line number="43" hits="18" branch="false"/>
+								<line number="44" hits="18" branch="false"/>
+								<line number="45" hits="18" branch="false"/>
+								<line number="46" hits="18" branch="false"/>
+								<line number="47" hits="18" branch="false"/>
+								<line number="48" hits="18" branch="false"/>
+								<line number="49" hits="18" branch="false"/>
+								<line number="50" hits="18" branch="false"/>
+								<line number="51" hits="18" branch="false"/>
+								<line number="52" hits="18" branch="false"/>
+								<line number="53" hits="18" branch="false"/>
+								<line number="55" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="setWithdraw_limit" signature="(D)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="36" hits="4" branch="false"/>
+								<line number="37" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="20" hits="20" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(DILjava/lang/String;ILjava/lang/String;Ljava/util/ArrayList;)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="59" hits="18" branch="false"/>
+								<line number="60" hits="18" branch="false"/>
+								<line number="62" hits="18" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="63" hits="10" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="64" hits="4" branch="false"/>
+								<line number="66" hits="14" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="20" branch="false"/>
+						<line number="23" hits="62" branch="false"/>
+						<line number="24" hits="62" branch="false"/>
+						<line number="27" hits="58" branch="false"/>
+						<line number="28" hits="58" branch="false"/>
+						<line number="29" hits="58" branch="false"/>
+						<line number="32" hits="22" branch="false"/>
+						<line number="36" hits="4" branch="false"/>
+						<line number="37" hits="4" branch="false"/>
+						<line number="41" hits="18" branch="false"/>
+						<line number="43" hits="18" branch="false"/>
+						<line number="44" hits="18" branch="false"/>
+						<line number="45" hits="18" branch="false"/>
+						<line number="46" hits="18" branch="false"/>
+						<line number="47" hits="18" branch="false"/>
+						<line number="48" hits="18" branch="false"/>
+						<line number="49" hits="18" branch="false"/>
+						<line number="50" hits="18" branch="false"/>
+						<line number="51" hits="18" branch="false"/>
+						<line number="52" hits="18" branch="false"/>
+						<line number="53" hits="18" branch="false"/>
+						<line number="55" hits="18" branch="false"/>
+						<line number="59" hits="18" branch="false"/>
+						<line number="60" hits="18" branch="false"/>
+						<line number="62" hits="18" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="63" hits="10" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="64" hits="4" branch="false"/>
+						<line number="66" hits="14" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.vo.PartTime" filename="com/mycompany/vo/PartTime.java" line-rate="1.0" branch-rate="1.0" complexity="1.8571428571428572">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="38" branch="false"/>
+								<line number="22" hits="38" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(DILjava/lang/String;ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="25" hits="68" branch="false"/>
+								<line number="26" hits="68" branch="false"/>
+								<line number="27" hits="68" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAnnual_salary" signature="()D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="30" hits="22" branch="false"/>
+							</lines>
+						</method>
+						<method name="ptTest" signature="()Lcom/mycompany/vo/PartTime;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="39" hits="16" branch="false"/>
+								<line number="41" hits="16" branch="false"/>
+								<line number="42" hits="16" branch="false"/>
+								<line number="43" hits="16" branch="false"/>
+								<line number="44" hits="16" branch="false"/>
+								<line number="45" hits="16" branch="false"/>
+								<line number="47" hits="16" branch="false"/>
+								<line number="48" hits="16" branch="false"/>
+								<line number="50" hits="16" branch="false"/>
+							</lines>
+						</method>
+						<method name="setAnnual_salary" signature="(D)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="34" hits="2" branch="false"/>
+								<line number="35" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(DILjava/lang/String;ILjava/lang/String;)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="54" hits="16" branch="false"/>
+								<line number="55" hits="16" branch="false"/>
+								<line number="57" hits="16" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="58" hits="8" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="59" hits="4" branch="false"/>
+								<line number="61" hits="12" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="18" branch="false"/>
+						<line number="21" hits="38" branch="false"/>
+						<line number="22" hits="38" branch="false"/>
+						<line number="25" hits="68" branch="false"/>
+						<line number="26" hits="68" branch="false"/>
+						<line number="27" hits="68" branch="false"/>
+						<line number="30" hits="22" branch="false"/>
+						<line number="34" hits="2" branch="false"/>
+						<line number="35" hits="2" branch="false"/>
+						<line number="39" hits="16" branch="false"/>
+						<line number="41" hits="16" branch="false"/>
+						<line number="42" hits="16" branch="false"/>
+						<line number="43" hits="16" branch="false"/>
+						<line number="44" hits="16" branch="false"/>
+						<line number="45" hits="16" branch="false"/>
+						<line number="47" hits="16" branch="false"/>
+						<line number="48" hits="16" branch="false"/>
+						<line number="50" hits="16" branch="false"/>
+						<line number="54" hits="16" branch="false"/>
+						<line number="55" hits="16" branch="false"/>
+						<line number="57" hits="16" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="58" hits="8" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="59" hits="4" branch="false"/>
+						<line number="61" hits="12" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.vo.Savings" filename="com/mycompany/vo/Savings.java" line-rate="1.0" branch-rate="1.0" complexity="1.8571428571428572">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="38" branch="false"/>
+								<line number="22" hits="38" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(DIIID)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="25" hits="56" branch="false"/>
+								<line number="26" hits="56" branch="false"/>
+								<line number="27" hits="56" branch="false"/>
+							</lines>
+						</method>
+						<method name="getMinimum_balance" signature="()D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="30" hits="20" branch="false"/>
+							</lines>
+						</method>
+						<method name="sTest" signature="()Lcom/mycompany/vo/Savings;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="39" hits="16" branch="false"/>
+								<line number="41" hits="16" branch="false"/>
+								<line number="42" hits="16" branch="false"/>
+								<line number="43" hits="16" branch="false"/>
+								<line number="44" hits="16" branch="false"/>
+								<line number="45" hits="16" branch="false"/>
+								<line number="47" hits="16" branch="false"/>
+								<line number="48" hits="16" branch="false"/>
+								<line number="50" hits="16" branch="false"/>
+							</lines>
+						</method>
+						<method name="setMinimum_balance" signature="(D)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="34" hits="2" branch="false"/>
+								<line number="35" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="validate" signature="(DIIID)Z" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="54" hits="16" branch="false"/>
+								<line number="55" hits="16" branch="false"/>
+								<line number="57" hits="16" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="58" hits="8" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="59" hits="4" branch="false"/>
+								<line number="61" hits="12" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="18" branch="false"/>
+						<line number="21" hits="38" branch="false"/>
+						<line number="22" hits="38" branch="false"/>
+						<line number="25" hits="56" branch="false"/>
+						<line number="26" hits="56" branch="false"/>
+						<line number="27" hits="56" branch="false"/>
+						<line number="30" hits="20" branch="false"/>
+						<line number="34" hits="2" branch="false"/>
+						<line number="35" hits="2" branch="false"/>
+						<line number="39" hits="16" branch="false"/>
+						<line number="41" hits="16" branch="false"/>
+						<line number="42" hits="16" branch="false"/>
+						<line number="43" hits="16" branch="false"/>
+						<line number="44" hits="16" branch="false"/>
+						<line number="45" hits="16" branch="false"/>
+						<line number="47" hits="16" branch="false"/>
+						<line number="48" hits="16" branch="false"/>
+						<line number="50" hits="16" branch="false"/>
+						<line number="54" hits="16" branch="false"/>
+						<line number="55" hits="16" branch="false"/>
+						<line number="57" hits="16" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="58" hits="8" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="59" hits="4" branch="false"/>
+						<line number="61" hits="12" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
